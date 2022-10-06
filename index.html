@@ -1,1 +1,92 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stepper</title>
+</head>
+<body>
+    <div class="jumbo">
+        <nav class="stepper">
+                <div class="index prev">1</div>
+                <div class="prev-title">
+                    Cabin
+                </div>
+                <div class="next"></div>
+                <div class="index curr">2</div>
+                <div class="curr-title">
+                    Meals
+                </div>
+                <div class="next"></div>
+                <div class="index">3</div>
+                <div class="title">
+                    Upgrades
+                </div>
+                <div class="next"></div>
+                <div class="index">4</div>
+                <div class="title">
+                    Payment
+                </div>
+        </nav>
+        <section class="main">
+            <div class="top">
+                <h3>Meal Preferences</h3>
+                <p>Your flight comes with breakfast, lunch and dinner. Please make your selections below.
+                    Changes to your order can be made up to 48 hours before your flight.
+                </p>
+            </div>
+            <form action="">
+                <div class="row1">
+                    <div>
+                        <label for="breakfast"><strong>Breakfast</strong></label>
+                    </div>
+                    <select name="breakfast" id="breakfast">
+                        <option value="ss">Sausage Egg Scramble Bowl</option>
+                    </select>
+                    <div>
+                        <label for="lunch"><strong>Lunch</strong></label>
+                    </div>
+                    <select name="lunch" id="lunch">
+                        <option value="ln">Club Sandwich Meal</option>
+                    </select>
+                    <div>
+                        <label for="dinner"><strong>Dinner</strong></label>
+                    </div>
+                    <select name="dinner" id="dinner">
+                        <option value="dn">Wagyu Beef Sliders</option>
+                    </select>
+                    <div>
+                        <input type="checkbox" name="dessert" id="dessert"> I'd like dessert, too!
+                    </div>
+                </div>
+                <div class="row2">
+                    <div>
+                        <label for="drink"><strong>Drink</strong></label>
+                    </div>
+                    <select name="drink" id="drink">
+                        <option value="dr">Coffee</option>
+                    </select>
+                    <div>
+                        <label for="drink"><strong>Drink</strong></label>
+                    </div>
+                    <select name="drink" id="drink">
+                        <option value="dr">Cranberry Juice</option>
+                    </select>
+                    <div>
+                        <label for="drink"><strong>Drink</strong></label>
+                    </div>
+                    <select name="drink" id="drink">
+                        <option value="dr">Red Wine</option>
+                    </select>
+                </div>
+            </form>
+            <div class="buttons">
+                <button class="bck">Back</button>
+                <button class="ctn">Continue</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
